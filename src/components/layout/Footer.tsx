@@ -33,6 +33,12 @@ const Footer: React.FC = () => {
                 <span className="text-white mb-1">Working Hours:</span>
                 <span className="text-neon font-medium">06:30 AM - 09:00 PM</span>
               </li>
+              <li className="flex flex-col pt-1">
+                <span className="text-white mb-1">Email Support:</span>
+                <a href="mailto:elder-care@pioneera.info" className="text-neon font-medium hover:text-white transition-colors">
+                  elder-care@pioneera.info
+                </a>
+              </li>
               <li className="pt-2">
                 <a href="#waitlist" className="text-white hover:text-neon transition-colors underline underline-offset-4 decoration-neon/50">
                   Join Waitlist
