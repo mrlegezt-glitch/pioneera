@@ -140,32 +140,32 @@ const WaitlistBanner: React.FC = () => {
                 <span className="text-white font-medium uppercase tracking-widest text-sm">Countdown to Launch</span>
               </div>
 
-              <div className="flex gap-4 sm:gap-6">
-                <div className="flex flex-col items-center">
-                  <span className="text-4xl sm:text-5xl font-display font-bold text-neon mb-1">{String(timeLeft.days).padStart(2, '0')}</span>
-                  <span className="text-xs text-muted uppercase tracking-wider">Days</span>
+              <div className="flex items-center justify-between gap-1 sm:gap-6 w-full">
+                <div className="flex flex-col items-center min-w-[50px]">
+                  <span className="text-3xl sm:text-5xl font-display font-bold text-neon mb-1">{String(timeLeft.days).padStart(2, '0')}</span>
+                  <span className="text-[10px] sm:text-xs text-muted uppercase tracking-wider">Days</span>
                 </div>
-                <span className="text-4xl sm:text-5xl text-white/20 font-light">:</span>
-                <div className="flex flex-col items-center">
-                  <span className="text-4xl sm:text-5xl font-display font-bold text-white mb-1">{String(timeLeft.hours).padStart(2, '0')}</span>
-                  <span className="text-xs text-muted uppercase tracking-wider">Hours</span>
+                <span className="text-2xl sm:text-5xl text-white/20 font-light -translate-y-2">:</span>
+                <div className="flex flex-col items-center min-w-[50px]">
+                  <span className="text-3xl sm:text-5xl font-display font-bold text-white mb-1">{String(timeLeft.hours).padStart(2, '0')}</span>
+                  <span className="text-[10px] sm:text-xs text-muted uppercase tracking-wider">Hours</span>
                 </div>
-                <span className="text-4xl sm:text-5xl text-white/20 font-light">:</span>
-                <div className="flex flex-col items-center">
-                  <span className="text-4xl sm:text-5xl font-display font-bold text-white mb-1">{String(timeLeft.minutes).padStart(2, '0')}</span>
-                  <span className="text-xs text-muted uppercase tracking-wider">Mins</span>
+                <span className="text-2xl sm:text-5xl text-white/20 font-light -translate-y-2">:</span>
+                <div className="flex flex-col items-center min-w-[50px]">
+                  <span className="text-3xl sm:text-5xl font-display font-bold text-white mb-1">{String(timeLeft.minutes).padStart(2, '0')}</span>
+                  <span className="text-[10px] sm:text-xs text-muted uppercase tracking-wider">Mins</span>
                 </div>
-                <span className="text-4xl sm:text-5xl text-neon/20 font-light">:</span>
-                <div className="flex flex-col items-center">
+                <span className="text-2xl sm:text-5xl text-neon/20 font-light -translate-y-2">:</span>
+                <div className="flex flex-col items-center min-w-[50px]">
                    <motion.span 
                     key={timeLeft.seconds} 
                     initial={{ opacity: 0, y: -10 }} 
                     animate={{ opacity: 1, y: 0 }} 
-                    className="text-4xl sm:text-5xl font-display font-bold text-neon mb-1 inline-block"
+                    className="text-3xl sm:text-5xl font-display font-bold text-neon mb-1 inline-block"
                   >
                     {String(timeLeft.seconds).padStart(2, '0')}
                   </motion.span>
-                  <span className="text-xs text-muted uppercase tracking-wider">Secs</span>
+                  <span className="text-[10px] sm:text-xs text-muted uppercase tracking-wider">Secs</span>
                 </div>
               </div>
 
