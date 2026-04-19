@@ -32,8 +32,8 @@ const Navbar: React.FC = () => {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-3"
           >
-            <div className="bg-white/10 p-1.5 rounded-full backdrop-blur-md">
-              <img src="/logo.png" alt="Pioneera Logo" className="h-10 object-contain drop-shadow-xl" />
+            <div className="bg-white rounded-full w-10 h-10 flex items-center justify-center overflow-hidden border border-neon/30 shadow-[0_0_10px_rgba(77,248,205,0.3)]">
+              <img src="/logo.png" alt="Pioneera Logo" className="w-full h-full object-cover scale-110" />
             </div>
             <span className="text-xl font-bold tracking-wide text-white font-display">Pioneera</span>
           </motion.div>

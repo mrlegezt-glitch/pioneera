@@ -40,11 +40,11 @@ const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete }) => {
             transition={{ duration: 1.5, ease: "easeOut" }}
             className="relative flex flex-col items-center"
           >
-            <div className="relative p-8 bg-white/5 rounded-full backdrop-blur-md border border-white/10 overflow-hidden flex items-center justify-center pointer-events-none w-48 h-48 md:w-64 md:h-64">
+            <div className="relative bg-white rounded-full overflow-hidden flex items-center justify-center pointer-events-none w-48 h-48 md:w-64 md:h-64 shadow-[0_0_50px_rgba(77,248,205,0.3)] border-4 border-neon/20">
               <img 
                 src="/logo.png" 
                 alt="Pioneera Splash Logo" 
-                className="w-full h-full object-contain drop-shadow-[0_0_30px_rgba(77,248,205,0.4)] brightness-[10]"
+                className="w-full h-full object-cover scale-110"
               />
             </div>
             <motion.h1
