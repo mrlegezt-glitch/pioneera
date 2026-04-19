@@ -19,7 +19,7 @@ const HeroSection: React.FC = () => {
         >
           {/* A soft glowing backdrop for the logo */}
           <div className="absolute inset-0 bg-neon/10 rounded-full blur-xl"></div>
-          <img src="/logo.png" alt="Pioneera Logo" className="relative z-10 w-full h-full object-contain drop-shadow-[0_0_15px_rgba(77,248,205,0.8)]" />
+          <img src="/logo_neon.png" alt="Pioneera Logo" className="relative z-10 w-full h-full object-contain drop-shadow-[0_0_25px_rgba(77,248,205,1)]" />
         </motion.div>
 
         {/* Headlines */}

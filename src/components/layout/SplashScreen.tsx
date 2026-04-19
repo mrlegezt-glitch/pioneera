@@ -41,9 +41,9 @@ const SplashScreen: React.FC<{ onComplete: () => void }> = ({ onComplete }) => {
             className="relative flex flex-col items-center"
           >
             <img 
-              src="/logo.png" 
+              src="/logo_neon.png" 
               alt="Pioneera Splash Logo" 
-              className="w-48 h-48 md:w-64 md:h-64 object-contain drop-shadow-[0_0_30px_rgba(77,248,205,0.8)]"
+              className="w-48 h-48 md:w-64 md:h-64 object-contain drop-shadow-[0_0_40px_rgba(77,248,205,1)]"
             />
             <motion.h1
               initial={{ opacity: 0, y: 20 }}

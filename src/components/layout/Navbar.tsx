@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-3"
           >
-            <img src="/logo.png" alt="Pioneera Logo" className="h-10 object-contain drop-shadow-[0_0_8px_rgba(77,248,205,0.5)]" />
+            <img src="/logo_neon.png" alt="Pioneera Logo" className="h-10 w-10 object-contain drop-shadow-[0_0_12px_rgba(77,248,205,0.8)]" />
             <span className="text-xl font-bold tracking-wide text-white font-display">Pioneera</span>
           </motion.div>
 
